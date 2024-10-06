@@ -1,0 +1,262 @@
+[
+    {
+        "category": "IDE",
+        "skills": [
+            {
+                "name": "Visual Code",
+                "icon": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
+            },
+            {
+                "name": "IntelliJ",
+                "icon": "https://img.icons8.com/?size=100&id=61466&format=png&color=000000"
+            },
+            {
+                "name": "Eclipse",
+                "icon": "https://img.icons8.com/?size=100&id=121485&format=png&color=000000"
+            },
+            {
+                "name": "Anaconda",
+                "icon": "https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000"
+            },
+            {
+                "name": "PyCharm",
+                "icon": "https://img.icons8.com/?size=100&id=117121&format=png&color=000000"
+            },
+            {
+                "name": "Visual Studio",
+                "icon": "https://img.icons8.com/?size=100&id=y7WGoWNuIWac&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Framework",
+        "skills": [
+            {
+                "name": "Spring",
+                "icon": "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+            },
+            {
+                "name": "Flask",
+                "icon": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000"
+            },
+            {
+                "name": "Django",
+                "icon": "https://img.icons8.com/?size=100&id=qV-JzWYl9dzP&format=png&color=000000"
+            },
+            {
+                "name": "Laravel",
+                "icon": "https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000"
+            },
+            {
+                "name": "Apache",
+                "icon": "https://img.icons8.com/?size=100&id=0cRqPqlItA0E&format=png&color=000000"
+            },
+            {
+                "name": "Hadoop",
+                "icon": "https://img.icons8.com/?size=100&id=69132&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Back-End",
+        "skills": [
+            {
+                "name": "Java",
+                "icon": "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+            },
+            {
+                "name": "Python",
+                "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+            },
+            {
+                "name": "PHP",
+                "icon": "https://img.icons8.com/?size=100&id=UGYn5TapNioV&format=png&color=000000"
+            },
+            {
+                "name": "C#",
+                "icon": "https://img.icons8.com/?size=100&id=45490&format=png&color=000000"
+            },
+            {
+                "name": "C++",
+                "icon": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000"
+            },
+            {
+                "name": "Node.js",
+                "icon": "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
+            },
+            {
+                "name": "Kotlin",
+                "icon": "https://img.icons8.com/?size=100&id=ZoxjA0jZDdFZ&format=png&color=000000"
+            },
+            {
+                "name": "Svelte",
+                "icon": "https://img.icons8.com/?size=100&id=Mm35TzLKahiF&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Front-End",
+        "skills": [
+            {
+                "name": "HTML5",
+                "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+            },
+            {
+                "name": "CSS3",
+                "icon": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+            },
+            {
+                "name": "SCSS",
+                "icon": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "https://img.icons8.com/?size=100&id=84710&format=png&color=000000"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+            },
+            {
+                "name": "JQuery",
+                "icon": "https://img.icons8.com/?size=100&id=9Um0Q4sZ0QCC&format=png&color=000000"
+            },
+            {
+                "name": "React",
+                "icon": "https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000"
+            },
+            {
+                "name": "Redux",
+                "icon": "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000"
+            },
+            {
+                "name": "Firebase",
+                "icon": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "DB",
+        "skills": [
+            {
+                "name": "Oracle",
+                "icon": "https://img.icons8.com/?size=100&id=39913&format=png&color=000000"
+            },
+            {
+                "name": "MySQL",
+                "icon": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
+            },
+            {
+                "name": "MariaDB",
+                "icon": "https://img.icons8.com/?size=100&id=nrY6pkbRkJCi&format=png&color=000000"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "https://img.icons8.com/?size=100&id=74402&format=png&color=000000"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Cloud",
+        "skills": [
+            {
+                "name": "Azure",
+                "icon": "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000"
+            },
+            {
+                "name": "AWS",
+                "icon": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+            },
+            {
+                "name": "Docker",
+                "icon": "https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+            },
+            {
+                "name": "Kubernetes",
+                "icon": "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000"
+            },
+            {
+                "name": "Linux",
+                "icon": "https://img.icons8.com/?size=100&id=17842&format=png&color=000000"
+            },
+            {
+                "name": "Jenkins",
+                "icon": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000"
+            },
+            {
+                "name": "Heroku",
+                "icon": "https://img.icons8.com/?size=100&id=31085&format=png&color=000000"
+            },
+            {
+                "name": "Kafka",
+                "icon": "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Collaboration",
+        "skills": [
+            {
+                "name": "Slack",
+                "icon": "https://img.icons8.com/?size=100&id=kikR2jIn6485&format=png&color=000000"
+            },
+            {
+                "name": "GitHub",
+                "icon": "https://img.icons8.com/?size=100&id=bVGqATNwfhYq&format=png&color=000000"
+            },
+            {
+                "name": "GitLab",
+                "icon": "https://img.icons8.com/?size=100&id=34886&format=png&color=000000"
+            },
+            {
+                "name": "Swagger",
+                "icon": "https://img.icons8.com/?size=100&id=rdKV2dee9wxd&format=png&color=000000"
+            },
+            {
+                "name": "Git",
+                "icon": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+            },
+            {
+                "name": "Excel",
+                "icon": "https://img.icons8.com/?size=100&id=13654&format=png&color=000000"
+            },
+            {
+                "name": "Word",
+                "icon": "https://img.icons8.com/?size=100&id=13674&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "category": "Language",
+        "skills": [
+            {
+                "name": "한국어",
+                "icon": "https://img.icons8.com/?size=100&id=-_RS8ho736Fs&format=png&color=000000"
+            },
+            {
+                "name": "日本語",
+                "icon": "https://img.icons8.com/?size=100&id=McQbrq9qaQye&format=png&color=000000"
+            },
+            {
+                "name": "English",
+                "icon": "https://img.icons8.com/?size=100&id=aRiu1GGi6Aoe&format=png&color=000000"
+            },
+            {
+                "name": "Deutsch",
+                "icon": "https://img.icons8.com/?size=100&id=hTMPE6ntTofO&format=png&color=000000"
+            },
+            {
+                "name": "Spanish",
+                "icon": "https://img.icons8.com/?size=100&id=ly7tzANRt33n&format=png&color=000000"
+            }
+        ]
+    }
+]

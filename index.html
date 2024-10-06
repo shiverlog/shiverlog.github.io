@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="UTF-8">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +8,44 @@
     <title>Shiver's Portfolio Site</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link id='favicon' rel="icon" type="image/png" href="assets/favicon/favicon.ico">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     
     <!-- JQuery -->
-    <script type="text/javascript" src="scripts/jquery.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script type="text/javascript" src="scripts/vendor/jquery.js"></script>
+  
     <!-- Slick -->
-    <script type="text/javascript" src="scripts/slick.js"></script>
+    <script type="text/javascript" src="scripts/vendor/slick.js"></script>
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     
     <!-- Fontawesome -->
-    <script type="text/javascript" src="scripts/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script type="text/javascript" src="scripts/vendor/fontawesome-all.js"></script>
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css"/>
     
     <!-- Textillate -->
-    <script type="text/javascript" src="scripts/jquery.textillate.js"></script>
-    <script type="text/javascript" src="scripts/jquery.lettering.js"></script>
+    <script type="text/javascript" src="scripts/vendor/jquery.textillate.js"></script>
+    <script type="text/javascript" src="scripts/vendor/jquery.lettering.js"></script>
     <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         
     <!-- Typed.js -->
-    <script type="text/javascript" src="scripts/typed.umd.js"></script>
+    <script type="text/javascript" src="scripts/vendor/typed.umd.js"></script>
 
-    <!-- Custom  -->
-    <script type="text/javascript" src="scripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="sass/style.scss"> -->
+    <!-- typed.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- vanilla tilt.js links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+</head>
 <body>
     <div id="preloader">
         <div class="loader"></div>
@@ -44,13 +54,19 @@
     <div id="hero"></div>
     <main id="container">
         <div id="about"></div>
-        <div id="portfolio"></div>
-        <div id="achievements"></div>
+        <div id="skill"></div>
+        <div id="experience"></div>
+        <div id="activity"></div>
+        <div id="education"></div>
         <div id="qualifications"></div>
-        <div id="career"></div>
+        <div id="portfolio"></div>
         <div id="gallery"></div>
         <div id="contact"></div>
     </main>
     <footer id="footer"></footer>
 </body>
+    <!-- Custom  -->
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="scss/style.scss"> 
 </html>

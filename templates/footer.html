@@ -1,24 +1,52 @@
 <footer class="footer">
+    <div class="chat-button">
+        <i class="fa fa-comments"></i>
+    </div>
+    
+    <div class="contact-form-wrapper">
+        <div class="contact-form">
+            <div class="form-header">
+                <h6>Please fill out the form below and we will get back to you as soon as possible.</h6>
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="from_name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
     <div class="footer_profile-box">
         <picture class="footer_profile">
-            <img srcset="" alt="Full logo" src="img/sample.png">
+            <img srcset="" alt="Full logo" src="assets/img/sample.png">
         </picture>
         <div class="ballon">
-            DevOps를 향한 여정 중 입니다!
+            Click on the social links below to get to know more about me
         </div> 
     </div>
     <div class="social-icons">
         <div class="social-icon-box"><a href="https://github.com/shiverlog"><img src="https://simpleicons.org/icons/github.svg" alt="GitHub"></a></div>
         <div class="social-icon-box"><a href="https://gitlab.com/shiverlog"><img src="https://simpleicons.org/icons/gitlab.svg" alt="GitLab"></a></div>                    
-        <div class="social-icon-box"><a href="https://instagram.com/shiverlog"><img src="https://simpleicons.org/icons/instagram.svg" alt="Instagram"></a></div>
-        <div class="social-icon-box"><a href="https://blog.naver.com/shiverlog"><img src="https://simpleicons.org/icons/naver.svg" alt="Naver Blog"></a></div>
+        <div class="social-icon-box"><a href="https://www.notion.so/Shiwoo-s-Dev-Study-Blog-76408d47c8694cd8b144b72b32a76159?cookie_sync_completed=true"><img src="https://simpleicons.org/icons/notion.svg" alt="Notion"></a></div>
         <div class="social-icon-box"><a href="https://shiverlog.com"><img src="https://simpleicons.org/icons/wordpress.svg" alt="WordPress Blog"></a></div>
+        <div class="social-icon-box"><a href="https://instagram.com/shiverlog"><img src="https://simpleicons.org/icons/instagram.svg" alt="Instagram"></a></div>
         <div class="social-icon-box"><a href="https://www.linkedin.com/in/shiverlog"><img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn"></a></div>
-        
-        <div class="social-icon-box"><a href="mailto:shiverlog@outlook.com"><img src="https://simpleicons.org/icons/microsoftoutlook.svg" alt="Outlook"></a></div>
         <div class="social-icon-box"><a href="mailto:shiverlog@gmail.com"><img src="https://simpleicons.org/icons/gmail.svg" alt="Gmail"></a></div>
     </div>
     <div class="copyright">
         <p>Copyright 2024 &copy; Shiwoo. Min All rights reserved.</p>
     </div>
+    <a href="javascript:void(0);" id="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </footer>
