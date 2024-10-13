@@ -1,0 +1,92 @@
+{
+    "education": [
+        {
+            "type": "Academy",
+            "year": "2021",
+            "dates": "08/02-09/23",
+            "institution": "한국융합기능진흥원",
+            "course": "인공지능 사물탑재 융합 제품 및 서비스 개발자 과정",
+            "certificate": "path/to/certificate/image1.png",
+            "description": "This course covered AI integration into smart devices, including machine learning, IoT, and embedded systems."
+        },
+        {
+            "type": "Academy",
+            "year": "2023",
+            "dates": "12/30-07/17",
+            "institution": "한경닷컴",
+            "course": "PBL 기반 자바/스프링 백엔드 과정",
+            "certificate": "path/to/certificate/image2.png",
+            "description": "Learned project-based Java and Spring framework backend development, including REST API and database integration."
+        },
+        {
+            "type": "Academy",
+            "year": "2023",
+            "dates": "09/11-11/22",
+            "institution": "남부여성개발센터",
+            "course": "클라우드 기반 웹개발 실무 과정",
+            "certificate": "path/to/certificate/image3.png",
+            "description": "Practical course focused on cloud web development, covering AWS, cloud architecture, and deployment strategies."
+        },
+        {
+            "type": "Academy",
+            "year": "2024",
+            "dates": "07/08-08/06",
+            "institution": "아토플래닛",
+            "course": "충남 데이터청년캠퍼스",
+            "certificate": "path/to/certificate/image4.png",
+            "description": "Studied data analytics, visualization, and processing using Python, with a focus on big data and cloud platforms."
+        },
+        {
+            "type": "Academy",
+            "year": "2024",
+            "dates": "06/24-09/20",
+            "institution": "에이블런",
+            "course": "충남 AI 커리어 스쿨",
+            "certificate": "path/to/certificate/image5.png",
+            "description": "AI career-focused program including machine learning, natural language processing, and AI ethics."
+        },
+        {
+            "type": "Academy",
+            "year": "2024",
+            "dates": "10/07-11/29",
+            "institution": "Goorm",
+            "course": "인공지능 언어 저녁반",
+            "certificate": "path/to/certificate/image6.png",
+            "description": "Focused on AI language models and NLP, including GPT and transformer models for text processing and generation."
+        },
+        {
+            "type": "Academy",
+            "year": "2024",
+            "dates": "11/01-12/19",
+            "institution": "Match 業",
+            "course": "클라우드 기반 웹개발 실무 과정",
+            "certificate": "path/to/certificate/image7.png",
+            "description": "Covered full-stack cloud development, emphasizing DevOps, CI/CD pipelines, and Kubernetes deployment."
+        },
+        {
+            "type": "Academy",
+            "year": "2025",
+            "dates": "05/11-11/22",
+            "institution": "Match 業",
+            "course": "빅데이터 실무 과정",
+            "certificate": "path/to/certificate/image8.png",
+            "description": "Big data course focusing on Hadoop, Spark, and data pipeline architectures for large-scale data processing."
+        },
+        {
+            "type": "University",
+            "year": "2020-Present",
+            "institution": "방송통신대학교",
+            "course": "정보데이터학과",
+            "certificate": null,
+            "description": "Studying information and data science, with coursework in data analysis, databases, machine learning, and statistics."
+        },
+        {
+            "type": "University",
+            "year": "2018-2020",
+            "institution": "충북대학교",
+            "course": "정보통신공학부",
+            "certificate": null,
+            "description": "Studied telecommunications engineering, including network protocols, wireless communication, and signal processing."
+        }
+    ]
+}

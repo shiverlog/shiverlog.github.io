@@ -88,13 +88,13 @@ function toggleButton(button) {
 // Chevron switch
 $(document).ready(function() {
 
-    backgrounds
+    // backgrounds
     var backgrounds = [
-        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.2), rgba(255, 127, 80, 0.2)), url("assets/img/slide_1.jpg")',
-        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.2), rgba(255, 127, 80, 0.2)), url("assets/img/slide_2.jpg")',
-        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.2), rgba(255, 127, 80, 0.2)), url("assets/img/slide_3.jpg")',
-        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.2), rgba(255, 127, 80, 0.2)), url("assets/img/slide_4.jpg")',
-        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.2), rgba(255, 127, 80, 0.2)), url("assets/img/slide_5.jpg")'
+        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.1), rgba(255, 127, 80, 0.2)), url("assets/img/slide_1.jpg")',
+        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.1), rgba(255, 127, 80, 0.2)), url("assets/img/slide_2.jpg")',
+        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.1), rgba(255, 127, 80, 0.2)), url("assets/img/slide_3.jpg")',
+        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.1), rgba(255, 127, 80, 0.2)), url("assets/img/slide_4.jpg")',
+        'linear-gradient(to right bottom, rgba(220, 20, 60, 0.1), rgba(255, 127, 80, 0.2)), url("assets/img/slide_5.jpg")'
     ];
 
     // title
@@ -102,14 +102,14 @@ $(document).ready(function() {
         "I'm a Biggest Dreamer",
         "I'm a Great Web Developer",
         "I Will Grow Into a DevOps Engineer",
-        "I Want to Start With You",
+        "I Want to Start With You!",
         '<h2 class="slide-title" data-in-effect="pulse"><span class="title-lg">Crafting the Future</span><span class="title-s">of</span><span class="title-lg">Web Development</span></h2>',
         '<h2 class="slide-title" data-in-effect="bounceDown"><span class="title-lg">Empowering</span><span class="title-s">Data-Driven</span><span class="title-lg">Decisions</span></h2>',
         '<h2 class="slide-title" data-in-effect="rotateIn"><span class="title-lg">Building</span><span class="title-s">Scalable</span><span class="title-lg">Cloud Solutions</span></h2>',
         '<h2 class="slide-title" data-in-effect="rollIn"><span class="title-lg">Innovating</span><span class="title-s">with Web,</span><span class="title-lg">Cloud, and Data</span></h2>',
     ];
 
-    // chevronContents 배열을 정의합니다.
+    // contents
     var chevronContents = [
         ["Slide 1 - Content Part 1"],
         ["Slide 2 - Content Part 1"],
@@ -118,10 +118,11 @@ $(document).ready(function() {
         ["Slide 5 - Content Part 1"]
     ];
 
-    // Default
+    // default
     $('input[data-slide-index="0"]').prop('checked', true);
     $('.hero').css('background-image', backgrounds[0]);
 
+    // slick
     $(".chevron").slick({
         dots: false,
         infinite: true,
@@ -131,8 +132,8 @@ $(document).ready(function() {
         adaptiveHeight: true,
         prevArrow: $('.left-btn'),
         nextArrow: $('.right-btn'),
-        autoplay: true,  // 자동 재생 옵션
-        autoplaySpeed: 30 
+        autoplay: true,
+        autoplaySpeed: 300 
     });
 
     // 왼쪽, 오른쪽 화살표 클릭 이벤트
@@ -203,12 +204,12 @@ $(document).ready(function() {
     });
 
     // typed setting
-    var typed = new Typed('.chevron_5', {
+    var typed = new Typed('.chevron_1', {
         strings: [
-            title[4], 
-            title[5],
-            title[6],
-            title[7]
+            title[0], 
+            title[1],
+            title[2],
+            title[3]
         ],
         typeSpeed: 80,
         loop: true,
