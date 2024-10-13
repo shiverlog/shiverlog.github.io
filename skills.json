@@ -25,6 +25,18 @@
             {
                 "name": "Visual Studio",
                 "icon": "https://img.icons8.com/?size=100&id=y7WGoWNuIWac&format=png&color=000000"
+            },
+            {
+                "name": "Android",
+                "icon": "https://img.icons8.com/?size=100&id=P2AnGyiJxMpp&format=png&color=000000"
+            },
+            {
+                "name": "Redux",
+                "icon": "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000"
+            },
+            {
+                "name": "Flutter",
+                "icon": "https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000"
             }
         ]
     },
